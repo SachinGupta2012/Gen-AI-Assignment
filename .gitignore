@@ -146,6 +146,8 @@ venv.bak/
 myenv/
 pyvenv.cfg
 
+.streamlit/secrets.toml
+
 # Spyder project settings
 .spyderproject
 .spyproject
