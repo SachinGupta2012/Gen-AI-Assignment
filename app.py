@@ -12,7 +12,7 @@ from src.chatbot import WebsiteChatbot
 
 # Page config
 st.set_page_config(
-    page_title="Website RAG Chatbot",
+    page_title="Website/Information Extraction RAG Chatbot",
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -40,7 +40,7 @@ for key, val in defaults.items():
     if key not in st.session_state:
         st.session_state[key] = val
 
-st.title("🤖 Website-Based RAG Chatbot")
+st.title("🤖 Website-Information RAG Chatbot")
 st.markdown("Crawl any website, index it with embeddings, and chat with it using **Groq LLM**")
 
 # Sidebar Configuration
@@ -118,7 +118,7 @@ tab1, tab2 = st.tabs(["🌐 Index Website", "💬 Chat Interface"])
 
 # ------------------ INDEX TAB ------------------
 with tab1:
-    st.subheader("Step 1: Enter Website URL")
+    st.subheader("Step 1: Enter course website / FAQ page")
 
     url_col, btn_col = st.columns([4, 1])
 
