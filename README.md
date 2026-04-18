@@ -61,11 +61,6 @@ Switch to the Chat Interface tab to ask questions
 - **Persistence**: Save and load FAISS index from disk  
 - **Conversation Memory**: Retains the last 5 chat exchanges 
 
-## Screenshots
-![image alt](https://github.com/SachinGupta2012/Website_Chatbot_Using_Embeddings/blob/e538eeecca52d364dc292648babf071768db7e80/screenshots/1.png)
-![image alt](https://github.com/SachinGupta2012/Website_Chatbot_Using_Embeddings/blob/75dc651c98a4f9709092d2c5429cc8f787ace0c0/screenshots/2.png)
-![image alt](https://github.com/SachinGupta2012/Website_Chatbot_Using_Embeddings/blob/75dc651c98a4f9709092d2c5429cc8f787ace0c0/screenshots/3.png)
-![image alt](https://github.com/SachinGupta2012/Website_Chatbot_Using_Embeddings/blob/75dc651c98a4f9709092d2c5429cc8f787ace0c0/screenshots/4.png)
 
 
 ## Project Structure
